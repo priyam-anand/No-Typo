@@ -28,7 +28,7 @@ const App = () => {
     {
       history.push(`/game/${gameState._id}`);
     }
-  },[gameState._id])
+  },[gameState._id,history])
 
   return (
     <>
