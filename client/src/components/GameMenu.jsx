@@ -5,7 +5,7 @@ const GameMenu = () => {
     return (
         <>
             <div className="text-center">
-                <h1 className="my-3">Welcome To Typeracer</h1>
+                <h1 className="my-3">Welcome To No Typo</h1>
                 <div className="btns mt-4">
                     <Link to={"/game/join"} className="btn btn-primary btn-primary-lg mx-3">
                         Join Game
